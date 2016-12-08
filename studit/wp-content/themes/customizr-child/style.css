@@ -1,0 +1,38 @@
+/*
+Theme Name:     Studit
+Theme URI:      http://vbrestad.no/studit
+Description:    A child theme for the Customizr WordPress theme. 
+Author:         Vegard Brestad
+Author URI:     http://vbrestad.no
+Template:       customizr
+Version:        1.0.0
+*/
+
+/* Your awesome customizations start right here !
+-------------------------------------------------------------- */
+
+/* START OF Remove Post/Page Navigation (CSS) */
+/* Remove Previous/Next & Text */
+.pager .previous > a, .pager .previous > span, 
+.pager .next > a, .pager .next > span {
+display:    none;
+}
+.assistive-text {
+display:    none;
+}
+/* END OF Remove Post/Page Navigation (CSS) */
+
+
+/* Height of posts in grid layout */
+.entry-header {
+ height: 70px;
+}
+
+.edit-my-profile {display: none;}
+
+/* article .has-thumb figcaption {
+  color: white;
+  background: BLACK;
+  background-color: none ;
+  opacity: 1;
+} */
